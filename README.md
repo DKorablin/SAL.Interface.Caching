@@ -1,2 +1,2 @@
-# TEMPLATE plugin
-This is a template plugin description
+# SAL caching interfaces
+Base SAL interfaces for cache plugins
