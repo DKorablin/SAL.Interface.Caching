@@ -1,2 +1,2 @@
 # SAL caching interfaces
-Base SAL interfaces for cache plugins
+Base interfaces for caching logic used inside SAL plugins
