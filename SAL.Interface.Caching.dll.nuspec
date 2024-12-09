@@ -9,13 +9,13 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<projectUrl>https://github.com/DKorablin/SAL.Interface.Caching</projectUrl>
 		<repository type="git" url="https://github.com/DKorablin/SAL.Interface.Caching" />
-		<description>Base SAL interfaces for caching plugins</description>
+		<description>Base interfaces for caching logic used inside SAL plugins</description>
 		<releaseNotes></releaseNotes>
 		<copyright>Danila Korablin</copyright>
 		<tags>SAL,Caching,Interfaces</tags>
 		<dependencies>
 			<group targetFramework="net20">
-				<dependency id="SAL.Flatbed" version="1.2.9" />
+				<dependency id="SAL.Flatbed" version="1.2.10" />
 			</group>
 		</dependencies>
 	</metadata>
