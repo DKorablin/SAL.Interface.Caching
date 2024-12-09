@@ -21,7 +21,7 @@
 	</metadata>
 	<files>
 		<file src="readme.md" target="docs" />
-		<!--file src="bin\net20\SAL.Interface.Caching.xml" target="xml" /-->
+		<file src="bin\net20\SAL.Interface.Caching.xml" target="xml" />
 		<file src="bin\net20\SAL.Interface.Caching.dll" target="lib\net20" />
 	</files>
 </package>
