@@ -114,6 +114,7 @@ jobs:
         dotnet pack ${{env.SolutionName}}.sln --no-build --no-restore -o ${{github.workspace}}\nupkg
         /p:ArtifactsDir="${{env.ArtifactsDir}}"
         /p:PackageVersion=${{needs.version.outputs.new_version}}
+        /p:GenerateDocumentationFile=true
         /p:IncludeSymbols=true
         /p:DebugType=Portable
         /p:EmbedUntrackedSources=true
