@@ -42,7 +42,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<AssemblyAttributes Include="AssemblyMetadata">
+		<AssemblyAttributes Include="AssemblyMetadata" Condition="'$(TargetFramework)'=='netstandard2.0'">
 			<_Parameter1>ProjectUrl</_Parameter1>
 			<_Parameter2>https://github.com/DKorablin/SAL.Interface.Caching</_Parameter2>
 		</AssemblyAttributes>
