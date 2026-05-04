@@ -5,4 +5,3 @@ using System.Runtime.InteropServices;
 [assembly: System.CLSCompliant(true)]
 
 [assembly: AssemblyDescription("Base SAL interfaces for caching plugins")]
-[assembly: AssemblyCopyright("Copyright © Danila Korablin 2016-2025")]
